@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faFacebook, faInstagram, faTwitter, faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import { faFacebook, faInstagram, faTwitter, faLinkedin, faWhatsapp } from '@fortawesome/free-brands-svg-icons';
 
 const Footer = () => {
   return (
@@ -53,6 +53,12 @@ const Footer = () => {
             </p>
           </div>
         </div>
+      </div>
+      <div><p className="whatsapp">
+              <a href="https://www.linkedin.com/in/hammed-ayanyemi-b07a61284/" target="_blank" rel="noopener noreferrer" className="whatsapplogo">
+                <FontAwesomeIcon icon={faWhatsapp} size="2x" />
+              </a>
+            </p>
       </div>
     </footer>
   );

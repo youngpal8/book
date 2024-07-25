@@ -553,5 +553,13 @@ iframe {
   
   }
 
+.whatsapp {
+  position: fixed; z-index: 3000; 
+  bottom: 20px; right: 75px;
+}
 
+.whatsapplogo {
+  color: green; 
+  margin-left: 95%;
+}
 
